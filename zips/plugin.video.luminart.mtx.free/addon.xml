@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.luminart.mtx.free" 
+       name="[COLOR orange][B]LUMINART MTX-FREE [/B][/COLOR]" 
+	   version="0.0.1" 
+	   provider-name="[COLOR white][B]JOHN DOE[/B][/COLOR]"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">SUA CONTRIBUIÇÃO INCENTIVA NOSSO TRABALHO</summary>
+    <description lang="en">ACESSO GRATUITO NAS CONDIÇÕES ABAIXO:  
+ACESSO INTEGRAL POR DEZ DIAS NO INICIO DO PERÍODO
+QUE VAI DO DIA 15 DE CADA MÊS ATÉ 15 DO PRÓXIMO, 
+PARA CONHECER E DECIDIR SE VALE A PENA CONTRIBUIR.
+ACESSO REDUZIDO NO RESTANTE DO PERÍODO.
+SE GOSTOU, E DESEJA TER ACESSO INTEGRAL,
+SOLICITE A ADESÃO DE CONTRIBUINTE NO CONTATO:
+WhatsApp (48) 99194-1409 </description>
+    <disclaimer lang="en">O LUMINART STUDIO É APENAS UM INDEXADOR DE LINKS COLETADOS NA WEB E ORGANIZADOS PARA USO RECREATIVO,SEM FINS COMERCIAIS 
+NÃO ARMAZENAMOS ARQUIVOS, OU SOMOS RESPONSÁVEIS PELOS LINKS UTILIZADOS.</disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>CONTATE O SUPORTE WhatsApp (48) 99194-1409</news>
+</extension>
+</addon>
